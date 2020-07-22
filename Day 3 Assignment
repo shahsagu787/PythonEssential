@@ -1,0 +1,45 @@
+print("ASSIGNMENT 1 --> GET THE SUM OF N NUMBERS USING WHILE LOOP\n\n")
+sum=0
+i=0
+num=int(input("ENTER THE NUMBER "))
+while i!=num+1:
+    sum=sum+i
+    i=i+1
+    print(sum)
+print("FINAL SUM ",sum)
+
+
+
+
+
+
+
+
+print("ASSIGNMENT 2 --> CHECK THE NUMBER IS PRIME OR NOT\n\n")
+
+
+n=int(input("ENTER THE NUMBER "))
+
+if n>1:
+    
+    for i in range(2,n):
+        if n%i==0:
+            print("NUMBER IS NOT PRIME NUMBER ")
+            break
+        else:
+            print("NUMBER IS PRIME NUMBER ")
+            break
+else:
+    print("NUMBER IS PRIME NUMBER ")
+
+
+
+
+
+
+
+
+
+
+
+
