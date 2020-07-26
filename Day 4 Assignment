@@ -1,0 +1,25 @@
+str1="what we think we become; we are python programmer"
+print(str1)
+
+for i in range(len(str1)):
+    if(i==str1.find("we",i)):
+        print(str1.find("we",i))
+
+str1="123"
+print(str1.islower())
+print(str1.isupper())
+
+print("\n")
+str1="hello123"
+print(str1.islower())
+print(str1.isupper())
+
+print("\n")
+str1="hEllo@#$"
+print(str1.islower())
+print(str1.isupper())
+
+print("\n")
+str1="Hello123@#$"
+print(str1.islower())
+print(str1.isupper())
