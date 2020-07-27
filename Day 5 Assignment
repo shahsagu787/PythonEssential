@@ -1,0 +1,52 @@
+Name : Sagar Shah
+
+Day 5 Assignment 1:
+
+
+def fun1(l1, n): 
+    count = 0 
+
+    for i in range(n): 
+        if l1[i] != 0: 
+            
+            l1[count] = l1[i] 
+            count+=1
+
+    while count < n: 
+        l1[count] = 0
+        count += 1
+          
+l1 = [0,1,2,10,4,1,0,56,2,0,1,3,0,56,0,4] 
+print(l1,"\n")
+l1.sort()
+fun1(l1, len(l1))
+print("Sorted in increasing way with all the zeros at end :\n") 
+print(l1)
+
+
+
+
+
+
+Assignment 2:
+
+list1 = [10,20,40,60,70,80]
+list2 = [5,15,25,35,45,60]
+list3 = [] 
+i, j = 0, 0
+  
+print("List 1 : ",list1)
+print("List 2 : ",list2)
+
+while i < len(list1) and j < len(list2) : 
+    if list1[i] < list2[j]: 
+      list3.append(list1[i]) 
+      i += 1
+  
+    else: 
+      list3.append(list2[j]) 
+      j += 1
+  
+list3 = list3 + list1[i:] + list2[j:] 
+  
+print ("The combined sorted list is : ", list3)
