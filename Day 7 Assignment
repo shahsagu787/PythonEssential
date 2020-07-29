@@ -1,0 +1,54 @@
+Name : Sagar Shah
+Email id : shahsagu787@gmail.com
+
+print("Day 7 ---> Assignment 1 \n")
+
+port1 = {21: "FTP", 22:"SSH", 23: "telnet", 80: "http"}
+l1=[]
+l2=[]
+print(port1)
+
+for i in port1.keys():
+    l1.append(i)
+for j in port1.values():
+    l2.append(j)
+
+dict2=dict((zip(l2,l1)))
+print(dict2)
+
+
+
+
+
+
+print("Day 7 ---> Assignment 2\n")
+
+
+list1=[(1,2), (3,4), (5,6),(4,5)]
+list2=[]
+i=0
+
+for each in list1:
+    list2.append(list1[i][0]+list1[i][1])
+    i=i+1
+
+print(list2)
+
+
+
+
+
+
+
+print("Day 7 ---> Assignment 3\n")
+
+
+ls1=[(1,2,3), [1,2], ['a','hit','less']]
+ls2=[]
+
+for i in ls1:
+    for j in range(len(i)):
+        j=i[j]
+        ls2.append(j)
+
+print(ls2)
